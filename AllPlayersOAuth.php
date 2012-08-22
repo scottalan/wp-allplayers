@@ -34,7 +34,7 @@ class AllPlayersOAuth {
    */
   function requestTokenURL() { return self::$TO_API_ROOT.'/oauth/request_token'; }
   function authorizeURL() { return self::$TO_API_ROOT.'/oauth/authorize'; }
-  function authenticateURL() { return self::$TO_API_ROOT.'/oauth/authenticate'; }
+  function authenticateURL() { return self::$TO_API_ROOT.'/oauth/authorize'; }
   function accessTokenURL() { return self::$TO_API_ROOT.'/oauth/access_token'; }
 
   /**
