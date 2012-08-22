@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: AllPlayers Connect - Login
-Plugin URI:
+Plugin URI: https://github.com/AllPlayers/wp-allplayers
 Description: Integrates AllPlayers.com Login and Authentication to WordPress
 Author: AllPlayers.com
 Version: 0.1
