@@ -1,6 +1,6 @@
 === AllPlayers.com Connect ===
 Contributors: imetchrischris
-Tags: AllPlayers, connect
+Tags: AllPlayers, connect, oauth
 Requires at least: 3.0
 Tested up to: 3.3
 Stable tag: 0.1
@@ -21,6 +21,12 @@ http://twitter.com/allplayers
 1. Upload the files to the `/wp-content/plugins/allplayers/` directory
 1. Activate the "AllPlayers.com Connect - Base" plugin through the 'Plugins' menu in WordPress
 1. After setting up the base plugin, you can activate the sub-plugins.
+
+== Screenshots ==
+
+1. Login screen with AllPlayers.com login option.
+2. AllPlayers.com Connect on My Profile screen.
+3. AllPlayers.com Connect, connected, on My Profile screen.
 
 == Changelog ==
 
