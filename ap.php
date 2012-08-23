@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: AllPlayers Connect - Base
-Plugin URI:
+Plugin URI: https://github.com/AllPlayers/wp-allplayers
 Description: Default OAuth configuration to support AllPlayers.com WordPress integration.
 Author: AllPlayers.com
 Version: 0.1
@@ -91,7 +91,7 @@ function ap_plugin_help($contextual_help, $screen_id, $screen) {
 		$home = home_url('/');
 		$contextual_help = <<< END
 <p>To connect your site to AllPlayers.com, you will need tokens.
-If you have already tokens, please insert your Consumer Key and Consumer Secret below.</p>
+If you already have a set of tokens, please insert your Consumer Key and Consumer Secret below.</p>
 
 <p><strong>Haven't created an application yet?</strong> Don't worry, it's easy!</p>
 <ol>
@@ -219,7 +219,7 @@ function ap_section_text() {
 	if (empty($options['consumer_key']) || empty($options['consumer_secret'])) {
 ?>
 <p>To connect your site to AllPlayers.com, you will need tokens.
-If you have already tokens, please insert your Consumer Key and Consumer Secret below.</p>
+If you already have a set of tokens, please insert your Consumer Key and Consumer Secret below.</p>
 
 <p><strong>Haven't created an application yet?</strong> Don't worry, it's easy!</p>
 <ol>
